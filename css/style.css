@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica, Arial, 'Liberation Sans', sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+
+header {
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  opacity: 0.9;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+}
+header .logo { height: 50px; }
+
+nav {
+
+}
+
+nav a { color: seashell; }
+
+footer {
+  opacity: 0.9;
+  margin: 20px;
+}
+
+
+
+a { color: white; }
+
+.copyright {
+  font-size: 0.83em;
+  text-align: left;
+}
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.img-container img {
+  width: 300px;
+  height: auto;
+  margin: 15px 10px 10px 10px;
+}
+
+.img-container p {
+  margin: 0;
+}
+
+.text-box { background-color: black; }
+
+#mission {
+  background: url("../images/img-mission-background.webp") no-repeat center center;
+  background-size: cover;
+  height: 700px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+#mission .text-box {
+  width: 100%;
+  padding: 0 20px;
+}
+
+#featured { padding: 40px; }
+
+#featured .flex-box {
+  max-width: 1000px;
+}
+
+#locations {
+  background: url("../images/img-locations-background.webp") no-repeat center center;
+  background-size: cover;
+  min-height: 500px;
+  max-width: 1200px;
+  margin: 40px auto 0 auto;
+  align-content: center;
+}
+
+#locations h2 {
+  margin: 15px 0 -5px 0;
+  width: 100%;
+}
+
+#locations .text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  margin: 20px;
+}
+
+#contact {
+  height: 180px;
+  overflow: hidden;
+}
+
+#contact h2 { margin-top: 0; }
+
+@media only screen and (max-width: 510px) {
+
+  header {
+    flex-direction: column;
+    height: unset;
+  }
+  header a {
+    display: block;
+    margin: 11px 0;
+  }
+}
