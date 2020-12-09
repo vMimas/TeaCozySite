@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
   background-color: black;
@@ -27,18 +25,12 @@ header {
 }
 header .logo { height: 50px; }
 
-nav {
-
-}
-
 nav a { color: seashell; }
 
 footer {
   opacity: 0.9;
   margin: 20px;
 }
-
-
 
 a { color: white; }
 
@@ -60,9 +52,7 @@ a { color: white; }
   margin: 15px 10px 10px 10px;
 }
 
-.img-container p {
-  margin: 0;
-}
+.img-container p { margin: 0; }
 
 .text-box { background-color: black; }
 
@@ -83,9 +73,7 @@ a { color: white; }
 
 #featured { padding: 40px; }
 
-#featured .flex-box {
-  max-width: 1000px;
-}
+#featured .flex-box { max-width: 1000px; }
 
 #locations {
   background: url("../images/img-locations-background.webp") no-repeat center center;
@@ -117,7 +105,6 @@ a { color: white; }
 #contact h2 { margin-top: 0; }
 
 @media only screen and (max-width: 510px) {
-
   header {
     flex-direction: column;
     height: unset;
